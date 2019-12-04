@@ -1,0 +1,26 @@
+.DM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.direct-message {
+    color: #ffffff8f;
+    font-size: 15px;
+}
+.heart {
+    color: #2bac76;
+    
+}
+.message a{
+    color: #ffffff8f;
+}
+.fa-circle {
+    font-size: 10px;
+    margin-right: 5px;
+}
+.direct-message:hover{
+    color: white;
+}
+.message a:hover {
+    color: white;
+}

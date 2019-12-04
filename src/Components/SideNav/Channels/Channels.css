@@ -1,0 +1,51 @@
+.channel-head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.channel {
+    color: #ffffff8f;
+    font-size: 15px;
+}
+
+.plus {
+    font-size: 18px;
+    padding-right: 15px;
+    color: #ffffff8f;
+}
+.plus:hover {
+    color: white;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+    color: #ffffff8f;
+    width: 100%;
+    font-size: 15px;
+    text-align: start;
+}
+.channel-list a {
+    color: #ffffff8f;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.channel-list li:hover{
+    background-color: #1164a3;
+    padding-right: 50%;
+    padding-left: 2px;
+    width: 100%;
+    margin: 0px;
+}
+.channel-list a:hover {
+    color: white;
+}
+ul {
+    margin: 0px;
+    padding: 5px;
+}
+.channel:hover{
+    color: white;
+}

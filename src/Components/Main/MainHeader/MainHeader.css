@@ -1,0 +1,30 @@
+p {
+    display: inline-block;
+}
+.main-head {
+    margin: 10px;
+    
+}
+.icons {
+    font-size: 15px;
+}
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+.corner{
+    margin: 10px;
+}
+.icons {
+    margin: 5px;
+    font-size: 15px;
+}
+.fas .fa-at {
+    font-size: 25px;
+}

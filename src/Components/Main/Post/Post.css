@@ -1,0 +1,27 @@
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 5px;
+    padding: 5px;
+}
+h1 {
+    font-size: 18px;
+}
+.profilepic{
+    width: 40px;
+    border-radius: 5px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 5px 10px;
+    
+}
+p {
+    margin: 5px;;
+}
+.post {
+    width: 50%;
+}

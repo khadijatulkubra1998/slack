@@ -1,0 +1,59 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    font-size: 10px;
+}
+
+.bell {
+    color: #ffffff8f;
+    font-size: 25px;
+    margin: 15px;
+    
+}
+
+.fas {
+    font-size: 10px;
+    color: #2bac76;
+    margin: 10px 5px 10px 5px;
+   
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+.user-name {
+    margin-top: 5px;
+    color: #ffffff8f;
+}
+.wrokplace-name {
+    color: white;
+    margin: 0px 6px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.search input.ant-input {
+    background-color: #260027;
+    border: none;
+    color: #ffffff8f;
+}
+.thread {
+    color: #ffffff8f;
+    margin: 8px;
+}
+.noti {
+    margin-top: 18px;
+    font-size: 15px;
+}
+.user-name:hover {
+    color: white;
+}
+.thread:hover {
+    color: white;
+}
