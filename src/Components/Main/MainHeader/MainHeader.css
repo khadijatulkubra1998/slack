@@ -21,10 +21,18 @@ p {
 .corner{
     margin: 10px;
 }
+.corner .ant-input {
+    height: 5vh;
+}
 .icons {
     margin: 5px;
     font-size: 15px;
 }
 .fas .fa-at {
     font-size: 25px;
+}
+@media screen and (min-width:300px) and  (max-width: 400px){
+ .main-head {
+    flex-direction: column;
+ }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin: 5px;
+    margin-left: 5px;
     padding: 5px;
 }
 h1 {
@@ -16,12 +16,48 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin: 5px 10px;
+    margin: 0px 10px;
     
 }
-p {
-    margin: 5px;;
+.name p {
+    margin: 5px 5px 0px 5px;
 }
 .post {
-    width: 50%;
+    width: 100%;
+}
+.posting {
+    margin: 5px;
+   
+}
+.heart-icon {
+    color: red;
+    margin: 5px;
+}
+.likes img{
+        width: 30px;
+        border-radius: 5px;
+        margin: 2px;
+}
+.second img {
+    width: 40px;
+}
+.post {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.comments {
+    margin-left: 5%;
+}
+.second-post {
+    margin-left: 10px;
+}
+.ant-input {
+    color: black;
+    height: 8vh;
+    margin: 3px;
+    border-color: black;
+}
+.ant-input-prefix {
+    padding: 5px;
 }
